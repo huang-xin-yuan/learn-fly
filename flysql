@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+#cannot run if there is fly.toml file in the same folder
+ 
+flyctl postgres connect -a learn-fly-postgres
